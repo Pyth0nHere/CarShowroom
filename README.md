@@ -65,12 +65,18 @@ Please ensure that your code adheres to the existing coding style and follows be
   </tr>
 </table>
 
-## Contact
+Connect with Us
+-------------------
 
-If you have any questions, suggestions, or feedback, please feel free to contact the project maintainer:
+If you have any questions, suggestions, or feedback, please feel free to contact us:
 
-- Piethon
-- piethonbughunter69@gmail.com
-- [Instagram](https://instagram/sudo_uwu)
+- **Project Maintainer: Piethon**
+  - Email: [piethonbughunter69@gmail.com](mailto:piethonbughunter69@gmail.com)
+  - Twitter: [sudo_uwu](https://twitter.com/sudo_uwu)
+  - Instagram: [sudo_uwu](https://www.instagram.com/sudo_uwu)
+  - Linkedin: [Majeed](https://www.linkedin.com/in/majeedmujawar01)
+- **Momin Mubash**
+  - Twitter: [momin_mubash](https://twitter.com/momin_mubash)
+  - Linkedin: [Momin Mubash](https://www.linkedin.com/in/momin-mubash-97a056263)
 
 Thank you for your interest in the Car Showroom Website project! We hope you find it exciting and contribute to its success.
