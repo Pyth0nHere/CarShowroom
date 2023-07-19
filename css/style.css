@@ -1,166 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
-
-
+/* NAVBAR CSS */
 .box {
-	width: 100%;
-	height: 90vh;
-	background-color: red;
-	background-image: url("../images/car-image.jpg");
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	overflow: hidden;
+  width: 100%;
+  height: 90vh;
+  /* background-color: red; */
+  background-image: url("../images/car_background.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .content {
-	color: white;
-	padding: 55px;
+  color: white;
+  padding: 55px;
 }
 
 .content h1 {
-	font-size: 4em;
-	font-family: 'Itim', cursive;
-
+  font-size: 4em;
+  font-family: "Itim", cursive;
 }
 
 .content h2 {
-	color: #13b6f6;
-	font-weight: bolder;
-	font-family: 'Itim', cursive;
-
+  color: #13b6f6;
+  font-weight: bolder;
+  font-family: "Itim", cursive;
 }
 
 .content h3 {
-	font-family: 'Itim', cursive;
+  font-family: "Itim", cursive;
 }
 
 .content h4 {
-	color: white;
-	font-weight: revert;
-	font-family: 'Itim', cursive;
+  color: white;
+  font-weight: revert;
+  font-family: "Itim", cursive;
 }
 
 .button {
-	padding: 7px 35px;
-	background-color: white;
-	color: #13b6f6;
-	border: 2px solid #13b6f6;
-	border-radius: 12px;
-	font-size: 16px;
-	font-weight: bolder;
+  padding: 7px 35px;
+  background-color: white;
+  color: #13b6f6;
+  border: 2px solid #13b6f6;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 button:hover {
-	background-color: #13b6f6;
-	color: white;
-	border-color: white;
+  background-color: #13b6f6;
+  color: white;
+  border-color: white;
 }
 
 .img-fluid {
-	max-width: 100%;
-	height: auto;
-	object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
-
-
-
-
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+/* FOOTER CSS */
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
 }
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-	max-width: 1170px;
-	margin:auto;
+.container {
+  max-width: 1170px;
+  margin: auto;
 }
-.row{
-	display: flex;
-	flex-wrap: wrap;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
-ul{
-	list-style: none;
+ul {
+  list-style: none;
 }
-.footer{
-	background-color: #24262b;
-    padding: 70px 0;
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
 }
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
 }
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
 }
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #007bff;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #007bff;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
 }
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
 }
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #007bff;
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #007bff;
 }
 
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
+@media (max-width: 767px) {
+  .footer-col {
     width: 50%;
     margin-bottom: 30px;
+  }
 }
-}
-@media(max-width: 574px){
-  .footer-col{
+@media (max-width: 574px) {
+  .footer-col {
     width: 100%;
+  }
 }
-}
-
-
-
-
