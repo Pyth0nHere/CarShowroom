@@ -43,14 +43,14 @@
   padding: 7px 35px;
   background-color: white;
   color: #13b6f6;
-  border: 2px solid #13b6f6;
+  border: 2px solid #007bff;
   border-radius: 12px;
   font-size: 16px;
   font-weight: bolder;
 }
 
 button:hover {
-  background-color: #13b6f6;
+  background-color: #007bff;
   color: white;
   border-color: white;
 }
