@@ -1,146 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Link to Bootstrap CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
+    <!-- Link to Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
-  <!-- Link to your custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
 
-  <!-- Link to Font Awesome or any other CSS files, if needed -->
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-  />
+    <!-- Link to Font Awesome or any other CSS files, if needed -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
 
-  <title>CarXplore</title>
-</head>
+    <title>CarXplore</title>
+  </head>
 
-<body>
-  <!-- NAVBAR STARTS HERE -->
-<header>
-    <h2>CarXplore</h2>
-    <ul class="head">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Models</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">contact</a></li>
-      
-    </ul>
-  </header>
+  <body>
+    <!-- NAVBAR STARTS HERE -->
+    <header>
+      <h2>CarXplore</h2>
+      <ul class="head">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Models</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </header>
 
-  <section class="box">
-    <video src="car2.webm" autoplay loop id="myvideo"></video>
+    <section class="box">
+      <video src="videos/car2.webm" autoplay loop id="myvideo"></video>
 
-    <h1>find your car</h1>
-    <h3>Find your own path</h3>
-    <a href="#" class="boxBtn">Configure and price</a>
-  </section>
-           
-          
-    
+      <h1>find your car</h1>
+      <h3>Find your own path</h3>
+      <button onclick="window.location.href='https://google.com';">Configure
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+        <span class="fourth"></span>
+      </button>
+    </section>
 
-  <div class="py-5">
-    <h2 class="text-center">Contact Us </h2>
-  </div>
-
-  <div class="w-50 m-auto">
-    <form action="userinfo.html" method="post">
-      <div class="form-group">
-        <label>Username</label>
-        <input type="text" name="user" autocomplete="off" class="form-control" />
-      </div>
-      <div class="form-group">
-        <label>Email Id</label>
-        <input type="text" name="email" autocomplete="off" class="form-control" />
-      </div>
-      <div class="form-group">
-        <label>Mobile Number</label>
-        <input type="text" name="mobile" autocomplete="off" class="form-control" />
-      </div>
-      <div class="form-group">
-        <label>Comments </label>
-        <textarea class="form-control" name="comments"></textarea>
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-          <label class="form-check-label" for="invalidCheck">
-            Agree to terms and conditions
-          </label>
-          <div class="invalid-feedback">
-            You must agree before submitting.
-          </div>
-        </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
-      </div>
-    </form>
-  </div>
-
-  <!-- FOOTER STARTS HERE -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col">
-          <h4>contact</h4>
-          <ul>
-            <li><a href="#">get help</a></li>
-            <li><a href="#">book a test drive</a></li>
-            <li><a href="#">nearest showroom</a></li>
-            <li><a href="#">service appointment</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>about us</h4>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">our team</a></li>
-            <li><a href="#">our services</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="#">cookie policy</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Legal Disclaimer/Imprint</a></li>
-            <li><a href="#">book a service appointment</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>follow us</h4>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </div>
-      </div>
+    <!-- Contact Form -->
+    <div class="py-5">
+      <h2 class="text-center">Contact Us</h2>
     </div>
-  </footer>
 
-  <!-- linking JS -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"
-  ></script>
-  <script src="js/script.js"></script>
-</body>
+    <div class="w-50 m-auto">
+      <form action="userinfo.html" method="post">
+        <div class="form-group">
+          <label>Username</label>
+          <input
+            type="text"
+            name="user"
+            autocomplete="off"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Email Id</label>
+          <input
+            type="text"
+            name="email"
+            autocomplete="off"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Mobile Number</label>
+          <input
+            type="text"
+            name="mobile"
+            autocomplete="off"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Comments </label>
+          <textarea class="form-control" name="comments"></textarea>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="invalidCheck"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- FOOTER STARTS HERE -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>contact</h4>
+            <ul>
+              <li><a href="#">get help</a></li>
+              <li><a href="#">book a test drive</a></li>
+              <li><a href="#">nearest showroom</a></li>
+              <li><a href="#">service appointment</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>about us</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">our team</a></li>
+              <li><a href="#">our services</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">cookie policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Legal Disclaimer/Imprint</a></li>
+              <li><a href="#">book a service appointment</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- linking JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
