@@ -2,63 +2,182 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
 /* NAVBAR CSS */
-.box {
-  width: 100%;
-  height: 90vh;
-  /* background-color: red; */
-  background-image: url("/images/car_background.webp");
-  background-size: cover;
-  background-position: center;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: nexa;
+
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+  color: inherit;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*padding: 110px 100px;*/
+
+}
+/*responsive section*/
+@media(max-width:1000px){
+	section{
+		padding: 100px 50px;
+
+	}
+}
+@media(max-width:600px){
+	section{
+		padding: 125px 30px;
+		
+	}
+}
+header{
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #ffffff;
+	padding: 12px 100px 0;
+}
+a{
   position: relative;
-  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+a:after{
+content: "";
+position: absolute;
+background-color: #007bff;
+height: 3px;
+width: 0;
+left: 0;
+font-size: 50px;
+bottom: -10px;
+transition: 0.3s ease-in-out;
+color: #ffffff;
+}
+a:hover:after{
+  width: 100%;
+  
+}
+header h2{
+  /*text-transform: uppercase;*/
+font-size: 47px;
+
+}
+header .head{
+  display: flex;
+
+}
+header .head li{
+  margin: 0 15px;
+}
+header .head li:first-child{
+  margin-left: 0;
+}
+header .head li:last-child{
+  margin-right: 0;
+}
+@media(max-width:1000px){
+  header{
+    padding: 20px 50px;
+  }
+}
+@media(max-width:700px){
+  header{
+    flex-direction: column;
+  }
+  header h2{
+    margin-bottom: 15px;
+  }
+  header .head li{
+margin: 0 7px;
+  }
 }
 
-.content {
+#myvideo{
+/*position: inherit;*/
+min-width: 100%;
+min-height: 100%;
+bottom: 0;
+right: 0;
+}
+.box{
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
   color: white;
-  padding: 55px;
-}
+  text-align: center;
 
-.content h1 {
-  font-size: 4em;
-  font-family: "Itim", cursive;
 }
+.box video{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100px;
+   height: 100%;
+   object-fit: cover;
+   z-index: -1;
 
-.content h2 {
-  color: #13b6f6;
-  font-weight: bolder;
-  font-family: "Itim", cursive;
 }
+.box h1{
+  margin-bottom: 15px;
+  font-size: 65px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.5);
 
-.content h3 {
-  font-family: "Itim", cursive;
 }
+.box h3{
+  margin-bottom: 40px;
+  font-size: 25px;
 
-.content h4 {
-  color: white;
-  font-weight: revert;
-  font-family: "Itim", cursive;
 }
+.box a.boxBtn{
+  padding: 15px 35px;
+  background: transparent;
+  border-radius: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 4px solid #ffffff;
+  transition: all .5s;
 
-.button {
-  padding: 7px 35px;
-  background-color: white;
+}
+.box a.boxBtn:hover{
+  background-color: #fff;
   color: #007bff;
   border: 2px solid #007bff;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: bolder;
+  font-size: 20px;
+  font-weight: 500;
 }
-
-button:hover {
-  background-color: #007bff;
-  color: white;
-  border-color: white;
+@media(max-width:800px){
+  .box{
+    min-height: 600px;
 }
+.box h1{
+  font-size: 32px;
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
+}
+.box h3{
+  font-size: 20px;
+}
+.box a.boxBtn{
+  padding: 15px 40px;
+}
 }
 
 /* FOOTER CSS */
